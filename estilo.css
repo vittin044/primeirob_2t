@@ -1,39 +1,21 @@
 body {
-  background: #696969;
+  background: rgb(121, 28, 116);
   margin: 0;
   padding: 0;
 }
-
-h1{
+h1 {
   text-align: center;
 }
-
-.caixa1 {
+.menuPrincipal {
   position: absolute;
-  background: rgb(0, 0, 0);
-  width: 200px;
-  height: 200px;
-  right: 400px;
-  bottom: 200;
-}
-
-.caixa2 {
-  position: absolute;
-  background:white;
-  width: 200px;
-  height: 45px;
-  right: 705px;
-  bottom: 200;
-}
-
-.menuprincipal {
-  position: absolute;
-  width: 100%;
-  height: 100px;
-  background: rgb(0, 0, 0);
-  bottom: 0;
+  top: 0;
   left: 0;
+  width: 100%;
+  height: 50px;
+  background: black;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+
 nav ul {
   list-style-type: none;
   margin: 0;
@@ -41,51 +23,76 @@ nav ul {
   overflow: 0;
 }
 li {
-  float: left;
+   float: left;
 }
-
 li a {
   display: block;
-  color: rgb(255, 255, 255);
-  padding: 14px 16px;
+  color: white;
   text-align: center;
+  padding: 14px 16px;
   text-decoration: none;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 li a:hover {
-  color: black(82, 70, 66);
-  background-color: rgb(0, 0, 0);
+  background: rgb(20, 66, 151);
+  color: rgb(104, 94, 3);
 }
-#yinyang {
-  height: 55%;
+#barcelona {
+  width: 80px;
 }
-.Boxyin {
+.caixabrasil {
   position: absolute;
-  width: 95%;
-  height: 200px;
-  background-color: rgb(80, 72, 72);
+  top: 100px;
   left: 0;
-  border-color: rgb(3, 3, 3);
-  border-width: 10px;
-  border-style: solid;
-  margin: 10px;
-  padding: 10px;
+  width: 90%;
+  height: 140px;
+  background: rgb(147, 150, 5);
+  margin: 20px;
+  border-color: rgb(170, 49, 49);
+  border-width: 20px;
+  border-style: double;
+  padding: 20px;
   display: flex;
   justify-content: center;
-
 }
-.rodape { 
+.rodape {
   position: absolute;
   bottom: 0;
-  background-color: black;
-  color: white;
   width: 100%;
   left: 0;
   height: 40px;
+  background: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
   display: flex;
   justify-content: center;
-  font-size: 18px;
+  font-size: 19px;
 }
 .conteudo {
   position: absolute;
-  top: 45px;
+  top: 40px;
+  width: 100%;
+  color: antiquewhite;
 }
+.conteudo2 {
+  position: absolute;
+  text-align: center;
+  top: 50px;
+  width: 100%;
+  color:rgb(255, 255, 255);
+}
+.conteudo3 {
+  position: fixed;
+  text-align: center;
+  top: 150px;
+  width: 100%;
+}
+.conteudo5 {
+  position: absolute;
+  text-align: right;
+  width: 100%;
+  color: aliceblue;
+  font-size: 19px;
+}
+
+
+
